@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
 
-#Creado por: Luis Enrique Vite Aquino
+#Creado por Luis Enrique Vite Aquino par ala materia de programacion avanzada y metodos numericos del grupo_05
 
 import unicodedata
 import spotipy
