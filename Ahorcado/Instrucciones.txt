@@ -1,0 +1,15 @@
+
+Instrucciones para el juego:
+
+1. En este juego se debera adivinar una cancion en lugar de una letra
+2. La cancion sera elegida aleatoriamente en base al artista que te solicita el programa al comenzar
+3. Se debe tomar en cuenta que la cancion puede pedir una edicion en especifico o si esta tiene alguna colaboracion
+4. Pueden haber caracteres especiales, aunque el juego te ayuda en algunos no esta demas intentar con alguno
+5. No es necesario que la letra lleve acento, el programa esta diseñado para que estas no sean necesarias
+6. La palabra si puede llevar numeros
+7. Si se conoce el nombre de la cancion se puede escribir COMPLETA, NO POR PARTES(palabra por palabra)
+8. Al ser el programa para consola las letras que se coloquen deben ir seguidas por la tecla enter para ingresarlas
+9. Por ultimo, se puede solicitar una pista, esta sera el album (de acuerdo a spotify) donde se encuentra solo basta 
+   con escribir pista y dar enter, si se solicita mas de una vez no va a funcionar y el programa lo empezara a tomar 
+   como intento
+
