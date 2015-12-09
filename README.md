@@ -4,7 +4,7 @@ de la libreria spotipy, ojo, se debe tener una conección a internet ya que el p
 para solicitar la información, de lo contrario el programa no hara nada.
 
 El principal objetivo del juego es encontrar; en lugar de una palabra, el nombre de una canción que sera elegida 
-aleatoriamente basandose en el nombre de artista ó banda escogido por el usuario.
+aleatoriamente basandose en el nombre de un(a) artista ó banda escogida por el usuario.
 
 ===================================
 
