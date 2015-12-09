@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
 
-#Creado por Luis Enrique Vite Aquino para la materia de programacion avanzada y metodos numericos del grupo_05
+#Creado por: Luis Enrique Vite Aquino
 
 import unicodedata
 import spotipy
@@ -146,6 +146,7 @@ while r=="s":
 		d=0
 		u=0
 		x=0
+		n=0
 
 		while i<7:
 			os.system('cls')                            #el comando permite limpiar la pantalla de la consola, si se trabaja en mac o linux es recomendable que se cambie el cls, por el comando que se utilize en su ditribucion
@@ -158,7 +159,9 @@ while r=="s":
 			if u>0:
 				print "letras usadas: "                   #despues de que el usuario halla ingresado una letra por primera vez el programa empezara a imprimir las letras utilizadas
 				print letras
-
+			if n==1:
+				print "\nYa habias usado esa letra"
+				n=0
 			for j in range(0,p):
 				print rayitas[j],
 
@@ -169,21 +172,29 @@ while r=="s":
 				if x>1:
 					i+=1
 			else:
-				letras.append(letra)                                #agrega la letra utilizada por el usuario  a la lista letras 
-
 				if letra==comparar:                                 #compara la cadena escrita por el usuario si es igual al nombre de la cancion entonces termina el ciclo
 					break
 				elif letra in comparar:                             #comprueba que la letra se encuente en el titulo de la cancion si es correcto cambia los _ por la letra en la lista rayitas
-					for k in range(p):
-						if letra==palabra[k]:
-							rayitas[k]=letra
-							d+=1
-							u+=1
+					if letra in letras:
+						n=1
+					else:
+						letras.append(letra) 
+						for k in range(p):
+							if letra==palabra[k]:
+								rayitas[k]=letra
+								d+=1
+								u+=1
 				else:
-					i+=1
-					u+=1
+					if letra in letras:
+						n=1
+						i+=1
+					else:
+						letras.append(letra)
+						i+=1
+						u+=1
 			if d==c:
 				break
+
 
 		os.system('cls')                        #el comando permite limpiar la pantalla de la consola, si se trabaja en mac o linux es recomendable que se cambie el cls, por el comando que se utilize en su ditribucion
 		if i==7:
