@@ -10,7 +10,10 @@ aleatoriamente basandose en el nombre de un(a) artista ó banda escogida por el 
 
 La version de python utilizada y recomendada para este programa es la 2.7.11 que la puedes encontrar aqui: https://www.python.org/downloads/release/python-2711/
 
-Dentro de la carpeta encontraras un archivo con el nombre requirements donde viene la version la libreria spotipy
+Dentro del archivo requirements podras encontrar la version de la libreria spotipy ademas de que podras instalarla directamente
+si cuentas con pip, mediante el siguiente comando:
+
+-pip install requierements
 
 Si estas interesado en el API de spotify puedes checar la parte de developer aqui: https://developer.spotify.com/
 
