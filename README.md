@@ -1,10 +1,10 @@
 # Juego del ahorcado
-El programa esta basado en un juego del ahorcado sencillo, pero implementa el API de spotify mediante la utilizacion
-de la libreria spotipy, ojo, se debe tener una coneccion a internet ya que el porgrama se conecta al api de spotify 
-para solicitar la informacion, de lo contrario el programa no hara nada.
+El programa esta basado en un juego del ahorcado sencillo, pero implementa el API de spotify mediante la utilización
+de la libreria spotipy, ojo, se debe tener una conección a internet ya que el porgrama se conecta al api de spotify 
+para solicitar la información, de lo contrario el programa no hara nada.
 
-El principal onjetivo del juego es encontrar en lugar de una palabra, el nombre de una cancion elegida aleatoriamente
-basada en un artista escogido por el usuario.
+El principal objetivo del juego es encontrar; en lugar de una palabra, el nombre de una canción que sera elegida 
+aleatoriamente basandose en el nombre de artista ó banda escogido por el usuario.
 
 ===================================
 
