@@ -7,4 +7,4 @@ de la version de la libreria spotipy
 
 Si estas interesado en el API de spotify puedes checar la parte de developer aqui: https://developer.spotify.com/
 
-O bien si quieres en la siguiente direccion podras encontrar la documentacion de la libreria spotipy: http://spotipy.readthedocs.org/en/latest/
+O bien, en la siguiente direccion podras encontrar la documentacion de la libreria spotipy: http://spotipy.readthedocs.org/en/latest/
