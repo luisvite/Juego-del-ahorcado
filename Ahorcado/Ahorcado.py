@@ -148,7 +148,7 @@ while r=="s":
 		x=0
 
 		while i<7:
-			os.system('cls')
+			os.system('cls')                            #el comando permite limpiar la pantalla de la consola, si se trabaja en mac o linux es recomendable que se cambie el cls, por el comando que se utilize en su ditribucion
 			print "\t\t\tAHORCADO"
 			print AHORCADO[i]+"\n"
 
@@ -185,7 +185,7 @@ while r=="s":
 			if d==c:
 				break
 
-		os.system('cls')
+		os.system('cls')                        #el comando permite limpiar la pantalla de la consola, si se trabaja en mac o linux es recomendable que se cambie el cls, por el comando que se utilize en su ditribucion
 		if i==7:
 			print AHORCADO[i]+"\n"
 			print "\nFin del juego"
