@@ -13,7 +13,7 @@ La version de python utilizada y recomendada para este programa es la 2.7.11 que
 Dentro del archivo requirements podras encontrar la version de la libreria spotipy ademas de que podras instalarla directamente
 si cuentas con pip, mediante el siguiente comando:
 
--pip install requierements
+_-pip install requierements_
 
 Si estas interesado en el API de spotify puedes checar la parte de developer aqui: https://developer.spotify.com/
 
