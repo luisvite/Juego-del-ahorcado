@@ -9,7 +9,8 @@ Instrucciones para el juego:
 6. La palabra si puede llevar numeros
 7. Si se conoce el nombre de la cancion se puede escribir COMPLETA, NO POR PARTES(palabra por palabra)
 8. Al ser el programa para consola las letras que se coloquen deben ir seguidas por la tecla enter para ingresarlas
-9. Por ultimo, se puede solicitar una pista, esta sera el album (de acuerdo a spotify) donde se encuentra solo basta 
+9. Si utilizas mas de una vez alguna letra, se te notificara que ya usaste esa letra, y si no esta en el titulo de la 
+   cancion se te contara como error
+10. Por ultimo, se puede solicitar una pista, esta sera el album (de acuerdo a spotify) donde se encuentra solo basta 
    con escribir pista y dar enter, si se solicita mas de una vez no va a funcionar y el programa lo empezara a tomar 
    como intento
-
